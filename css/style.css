@@ -112,6 +112,7 @@ hr {
 #photoId {
   width: 10%;
   height: 10%;
+  
 }
 
 /* WRAP SECTIONS */
@@ -193,6 +194,12 @@ hr {
 #social .col-md-3 {
   padding: 30px;
 }
+
+.fa fa-linkedin, fa fa-envelope, fa fa-file:hover{
+	transform: scale(1.2);
+  transition: 0.3s;
+}
+
 
 /* Footer */
 
