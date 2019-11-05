@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   line-height: 28px;
-  margin: 5% 5%;
+  margin: 5% 5% 5% 5%;
 }
 
 .centered {
@@ -220,7 +220,7 @@ hr {
   width: 300px;
   height: 200px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  margin: 5% 5% 2% 2%;
+  margin: 10% 5% 2% 2%;
 }
 
 /* This container is needed to position the front and back side */
@@ -231,7 +231,7 @@ hr {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin: 5% 5% 2% 2%;
+  justify-content: center;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -257,10 +257,11 @@ hr {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #f5c062;
   color: white;
   transform: rotateY(180deg);
 }
-row {
-  margin: 0% 0% 5% 5%;
+
+.row {
+  margin: 0;
 }
